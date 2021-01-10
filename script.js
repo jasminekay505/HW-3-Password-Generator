@@ -1,5 +1,9 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+var lowerLetters = "abcdefghijklmnopqrstuvwxyz"
+var upperLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+var num = "0123456789"
+var symbol = " !#$%&'()*+,-./:;<=>?@[]^_`{|}~"
 
 // Write password to the #password input
 function writePassword() {
@@ -15,5 +19,5 @@ generateBtn.addEventListener("click", writePassword);
 
 //Create generatePassword Function
 function generatePassword() {
-  
+
 }
