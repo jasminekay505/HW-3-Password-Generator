@@ -51,6 +51,14 @@ function generatePassword() {
     if (wantSymbol) {
       userChoices = userChoices + symbol;
     }
+    if(!wantUpper && !wantLower && !wantNum && !wantSymbol) {
+      userChoices = alert("You must choose which characters you want in your password!");
+    }
+
+    //For loop to create randomly generated password
+    for (var i = 0; i < passwordLength; i ++) {
+      
+    }
   }
 
   }
