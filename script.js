@@ -41,6 +41,14 @@ function generatePassword() {
     //Create blank string to fill with user choices for characters
     var userChoices = "";
 
+    //Ask if user wants Lower case letters
+    var wantLower = confirm("Do you want lower case characters in your password?");
+
+    //Add upper case characters to userChoices
+    if (wantLower) {
+      userChoices = userChoices + lowerLetters;
+    }
+
     //Ask for password composition
     //Ask if user wants Upper case letters
     var wantUpper = confirm("Do you want upper case characters in your password?");
@@ -48,14 +56,6 @@ function generatePassword() {
     //Add upper case characters to userChoices
     if (wantUpper) {
       userChoices = userChoices + upperLetters;
-    }
-
-    //Ask if user wants Lower case letters
-    var wantLower = confirm("Do you want lower case characters in your password?");
-
-    //Add upper case characters to userChoices
-    if (wantLower) {
-      userChoices = userChoices + lowerLetters;
     }
 
     //Ask if user wants numbers
