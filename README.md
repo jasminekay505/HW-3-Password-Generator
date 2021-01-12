@@ -1,6 +1,6 @@
 # HW-3-Password-Generator
 
-This application is a random password generator based on criteria entered by the user. when the "Generate Password" button is clicked:
+This application is a random password generator based on criteria entered by the user.  When the "Generate Password" button is clicked:
 
 - The user is prompted to input the length of password they desire (between 8-128 characters).
 
