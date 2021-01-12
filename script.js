@@ -5,11 +5,9 @@ var generateBtn = document.querySelector("#generate");
 var lowerLetters = "abcdefghijklmnopqrstuvwxyz";
 var upperLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var num = "0123456789";
-var symbol = " !#$%&'()*+,-./:;<=>?@[]^_`{|}~";
-//Create blank string to fill with user choices for characters
-var userChoices = "";
-//Create blank password to be filled up with characters
-var password = "";
+var symbol = "!#$%&'()*+,-./:;<=>?@[]^_`{|}~";
+
+
 
 // Write password to the #password input
 function writePassword() {
@@ -35,6 +33,10 @@ function generatePassword() {
   } else if (passwordLength < 8 || passwordLength > 128) {
     passwordLength = prompt("You must choose between 8 and 128.");
   } else {
+    //Create blank password to be filled up with characters
+    var password = "";
+    //Create blank string to fill with user choices for characters
+    var userChoices = "";
     //Ask for password composition
     //Ask if user wants Upper case letters
     var wantUpper = confirm("Do you want upper case characters in your password?");
@@ -64,7 +66,7 @@ function generatePassword() {
     if(!wantUpper && !wantLower && !wantNum && !wantSymbol) {
       userChoices = alert("You must choose at least one character for your password!");
     }
-
+  
     //For loop to create randomly generated password
     for (var i = 0; i < passwordLength; i ++) {
       var character = userChoices[Math.floor(Math.random() * userChoices.length)];
