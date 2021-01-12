@@ -14,6 +14,7 @@ function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
+  //Only display password if password is defined
   if (password) {
     passwordText.value = password;
   }
