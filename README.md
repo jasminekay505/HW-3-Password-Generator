@@ -13,7 +13,6 @@ https://jasminekay505.github.io/Password-Generator/
   * HTML 
   * CSS
   * JavaScript
-  * jQuery
   
 # Screenshots of Application
 ![HW3](https://user-images.githubusercontent.com/74380703/104366538-c16fdb80-54d6-11eb-8a34-683095899ec0.PNG)
