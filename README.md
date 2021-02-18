@@ -1,4 +1,4 @@
-# HW-3-Password-Generator
+# Password-Generator
 
 This application is a random password generator based on criteria entered by the user.  When the "Generate Password" button is clicked:
 
@@ -9,7 +9,7 @@ This application is a random password generator based on criteria entered by the
 When all prompts are answered the generated password is show in the box. 
 
 *Link to Application:*
-https://jasminekay505.github.io/HW-3-Password-Generator/
+https://jasminekay505.github.io/Password-Generator/
 
 *Screenshot of Application:*
 ![HW3](https://user-images.githubusercontent.com/74380703/104366538-c16fdb80-54d6-11eb-8a34-683095899ec0.PNG)
